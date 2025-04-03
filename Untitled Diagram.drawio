@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X_XIPfBHk28gVsEsd68m-1" value="Hospital" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="380" width="160" height="80" as="geometry">
+          <mxGeometry x="220" y="380" width="160" height="80" as="geometry">
             <mxRectangle x="370" y="660" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -176,7 +176,7 @@
         <mxCell id="X_XIPfBHk28gVsEsd68m-28" value="+ name: String&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="X_XIPfBHk28gVsEsd68m-27">
           <mxGeometry y="26" width="160" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="X_XIPfBHk28gVsEsd68m-29" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.463;entryY=1.066;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.467;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X_XIPfBHk28gVsEsd68m-12" target="X_XIPfBHk28gVsEsd68m-28">
+        <mxCell id="X_XIPfBHk28gVsEsd68m-29" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.463;entryY=1.066;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.467;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X_XIPfBHk28gVsEsd68m-12" target="X_XIPfBHk28gVsEsd68m-28">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="443" y="510" as="sourcePoint" />
             <mxPoint x="603" y="510" as="targetPoint" />
@@ -215,6 +215,28 @@
         </mxCell>
         <mxCell id="X_XIPfBHk28gVsEsd68m-39" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="588" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="X_XIPfBHk28gVsEsd68m-40" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=-0.002;exitY=0.693;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X_XIPfBHk28gVsEsd68m-28" target="X_XIPfBHk28gVsEsd68m-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="500" as="sourcePoint" />
+            <mxPoint x="600" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_XIPfBHk28gVsEsd68m-41" value="itsHospital" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="X_XIPfBHk28gVsEsd68m-42" value="itsTeam" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="483" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="X_XIPfBHk28gVsEsd68m-43" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;1&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontStyle=1" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="450" as="geometry">
+            <mxPoint x="-10" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_XIPfBHk28gVsEsd68m-44" value="2..5" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="470" as="geometry">
+            <mxPoint x="108" y="-17" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
